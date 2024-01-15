@@ -1,0 +1,88 @@
+@import "../../../assets/css/index.css";
+#overlay {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid #1e448c;
+  width: 111px;
+  height: 111px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkt-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+section {
+  margin: auto;
+  padding: 40px;
+  max-width: fit-content;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.title {
+  margin: 0.5rem 0 0.1rem 0;
+  font-size: 20px;
+  text-align: center;
+  line-height: inherit !important;
+}
+
+p {
+  color: #a3a3a3;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+input:focus {
+  border-bottom: 1.5px solid deepskyblue;
+  outline: none;
+}
+
+.btn-submit-totp {
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 16px 0;
+  font-weight: 500;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: none;
+  background-color: #1e448c;
+  color: white;
+  cursor: pointer;
+}
+
+button.is-disabled {
+  opacity: 0.5;
+  cursor: initial;
+}

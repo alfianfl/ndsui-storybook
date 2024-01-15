@@ -1,0 +1,49 @@
+{
+  "name": "nds-base-ui-lib",
+  "private": false,
+  "version": "0.0.2-beta.7",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/nds-base-ui-lib.cjs",
+  "module": "./dist/nds-base-ui-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/nds-base-ui-lib.js",
+      "require": "./dist/nds-base-ui-lib.cjs"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.7",
+    "@storybook/addon-interactions": "^7.6.7",
+    "@storybook/addon-links": "^7.6.7",
+    "@storybook/blocks": "^7.6.7",
+    "@storybook/test": "^7.6.7",
+    "@storybook/vue3": "^7.6.7",
+    "@storybook/vue3-vite": "^7.6.7",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@whitespace/storybook-addon-html": "^5.1.6",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "prettier": "^2.8.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-syntax-highlighter": "^15.5.0",
+    "sass": "^1.69.7",
+    "storybook": "^7.6.7",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.8"
+  }
+}
