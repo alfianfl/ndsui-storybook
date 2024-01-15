@@ -1,17 +1,17 @@
 {
-  "name": "nds-base-ui-lib",
+  "name": "nds-ui-base-storybook",
   "private": false,
-  "version": "0.0.2-beta.7",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/nds-base-ui-lib.cjs",
-  "module": "./dist/nds-base-ui-lib.js",
+  "main": "./dist/nds-ui-base-storybook.cjs",
+  "module": "./dist/nds-ui-base-storybook.js",
   "exports": {
     ".": {
-      "import": "./dist/nds-base-ui-lib.js",
-      "require": "./dist/nds-base-ui-lib.cjs"
+      "import": "./dist/nds-ui-base-storybook.js",
+      "require": "./dist/nds-ui-base-storybook.cjs"
     },
     "./dist/style.css": "./dist/style.css"
   },
