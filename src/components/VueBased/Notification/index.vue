@@ -1,6 +1,6 @@
 <template>
   <div
-    :class="`nds-alert nds-alert__${type}`"
+    :class="`nds-toast nds-toast__${type}`"
     role="alert"
   >
     <div class="flex items-center py-1">

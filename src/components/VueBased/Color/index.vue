@@ -24,7 +24,7 @@
       </div>
 
       <div class="color-box" style="background-color: #212121">
-        <div class="color-code">#212121</div>
+        <div class="color-code text-white">#212121</div>
       </div>
 
       <div class="color-box" style="background-color: #fff8c7">
