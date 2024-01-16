@@ -66,6 +66,6 @@
 import "./style.scss";
 
 export default {
-  name: "TextStyle",
+  name: "PopupConfirmation",
 };
 </script>
