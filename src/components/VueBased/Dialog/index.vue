@@ -36,7 +36,7 @@
                   />
                 </svg>
               </div>
-              <div class="mt-3 text-center sm:ml-4 sm:mt-1 sm:text-left">
+              <div class="mt-3 sm:ml-4 sm:mt-1 sm:text-left">
                 <h3
                   class="text-2xl font-bold leading-6 text-red-500"
                   id="modal-title"

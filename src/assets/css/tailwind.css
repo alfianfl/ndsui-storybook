@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-button, [type="button"], [type="reset"], [type="submit"] {
-    -webkit-appearance: button;
-    background-color: #1e448c;
-    background-image: none;
-  }
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  background-color: #1e448c;
+  background-image: none;
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}

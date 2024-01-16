@@ -1,9 +1,9 @@
-import MyGrid from '../components/VueBased/Grid/index.vue';
+import MyCard from '../components/VueBased/Card/CardBasic/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Grid',
-  component: MyGrid,
+  title: 'Vue Based/Component/Card/Card Default',
+  component: MyCard,
   tags: ['autodocs'],
 };
 

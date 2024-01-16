@@ -18,6 +18,10 @@ export default {
       type: Boolean,
       default: false,
     },
+    disabled:{
+      type: Boolean,
+      default: false
+    },
     type: {
       type: String,
       default: false,
@@ -41,7 +45,8 @@ export default {
       classes: computed(() => ({
         "btn-nds": true,
         "btn-nds--primary": props.primary,
-        "btn-nds--secondary": !props.primary,
+        "btn-nds--secondary": props.secondary,
+        "btn-nds--disabled": props.disabled,
         [`btn-nds--${props.size || "medium"}`]: true,
       })),
       style: computed(() => ({

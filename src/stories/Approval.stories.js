@@ -1,12 +1,12 @@
-import MyGrid from '../components/VueBased/Grid/index.vue';
+import MyApproval from '../components/VueBased/TextStyle/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Grid',
-  component: MyGrid,
+  title: 'Vue Based/Section/Approval',
+  component: MyApproval,
   tags: ['autodocs'],
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const main = {};
+export const Main = {};
 

@@ -1,0 +1,102 @@
+// Typography
+// ------------------------------------------------------------------------ //
+$base_px_font_size: 16;
+$base_font_size: $base_px_font_size * 1px;
+$base_line_height: 1.6;
+// $font_serif: 'Open Sans',-apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+// 	'Helvetica Neue', Arial, sans-serif;
+// $base_font_family: $font_serif;
+// $space: $base_line_height * 1em;
+
+// Colors
+// ------------------------------------------------------------------------ //
+
+$palettes: (
+	'primary': #0094ed,
+	'black': #000,
+	'orange': #ff6600,
+	'danger': #F0210B,
+	'green': #30981D,
+	'secondary': #76848C,
+	'light-grey': #D3D3D3,
+	'warning': #FFAE00,
+	'white': #ffffff,
+	'yellow': #FFFF00,
+	'red': #ff0000,
+	'black10': #e6e6e6,
+	'black20': #cccccc,
+	'black30': #b3b3b3,
+	'black40': #999999,
+	'black50': grey,
+	'black60': #666666,
+	'black70': #4d4d4d,
+	'black80': #333333,
+	'black90': #1a1a1a,
+	
+);
+
+$light-palettes: (
+	'light-grey': #ededed,
+	'white': #fff,
+	'light-green': #66B947,
+);
+
+@function palette($color) {
+	@if map-has-key($palettes, $color) {
+		@return map-get($palettes, $color);
+	} @else if map-has-key($light-palettes, $color) {
+		@return map-get($light-palettes, $color);
+	} @else {
+		@warn "key `#{$color}` was not found. Falling back to #000";
+		@return #000;
+	}
+}
+
+$primary: palette('primary');
+$light-grey: palette('light-grey');
+$green: palette('green');
+$orange: palette('orange');
+$danger: palette('danger');
+$secondary: palette('secondary');
+$dark-grey: palette('dark-grey');
+$yellow: palette('yellow');
+$warning: palette('warning');
+$red: palette('red');
+$blue: #4F8AD0;
+$light-green: palette('light-green');
+$black: #000;
+$black90: palette('black90');
+$black80: palette('black80');
+$black70: palette('black70');
+$black60: palette('black60');
+$black50: palette('black50');
+$black40: palette('black40');
+$black30: palette('black30');
+$black20: palette('black20');
+$black10: palette('black10');
+$black7: lighten($black, 93%);
+$black5: lighten($black, 95%);
+
+$link: $primary;
+$link_hover: darken($link, 10%);
+
+$selection_bg: #b3d4fc;
+$selection_color: $black;
+
+$shadow: 0 2px 6px rgba($black, 0.4);
+
+// Break Points
+// ------------------------------------------------------------------------ //
+
+$small: 'screen and (min-width: 28em)';
+$small_portrait: 'screen and (min-width: 28em) and (orientation: portrait)';
+$small_landscape: 'screen and (min-width: 28em) and (orientation: landscape)';
+
+$medium: 'screen and (min-width: 48em)';
+$medium_portrait: 'screen and (min-width: 48em) and (orientation: portrait)';
+$medium_landscape: 'screen and (min-width: 48em) and (orientation: landscape)';
+
+$large: 'screen and (min-width: 64em)';
+$extra_large: 'screen and (min-width: 75em)';
+
+$retina: '(-webkit-min-device-pixel-ratio: 1.3), (min-resolution: 1.25dppx), (min-resolution: 120dpi)';

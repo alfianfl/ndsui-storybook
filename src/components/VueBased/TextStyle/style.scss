@@ -1,16 +1,5 @@
-.nds-alert{
+.font-container {
     display: flex;
-    align-content: center;
-    padding: 10px 20px;
-    font-size: 18px;
-    border-radius: 5px;
-    &__error{
-        background-color: #FC1F49;
-    }
-    &__info{
-        background-color: #00B0FF;
-    }
-    &__success{
-        background-color: #1EC759;
-    }
-}
+    justify-content: flex-start;
+    gap: 4rem;
+  }
