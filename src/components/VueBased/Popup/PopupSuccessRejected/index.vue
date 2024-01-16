@@ -19,7 +19,7 @@
           <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
             <div class="sm:flex sm:items-start m-4">
               <div
-                class="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-white sm:mx-0 sm:h-10 sm:w-10"
+                class="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-full bg-white sm:mx-0 sm:h-12 sm:w-12"
               >
                 <svg
                   v-if="success"
@@ -66,7 +66,7 @@
             </div>
           </div>
           <div class="bg-gray-50 px-4 py-6 sm:flex sm:flex-row-reverse sm:px-6">
-            <button class="btn-nds btn-nds--primary btn-nds--medium">OK</button>
+            <button class="btn-nds btn-nds--primary btn-nds--medium w-[90px]">OK</button>
           </div>
         </div>
       </div>
