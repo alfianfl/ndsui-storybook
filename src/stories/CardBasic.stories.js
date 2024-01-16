@@ -1,9 +1,9 @@
-import MyNotif from '../components/VueBased/Notification/index.vue';
+import MyCard from '../components/VueBased/Card/CardBasic/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Card',
-  component: MyNotif,
+  title: 'Vue Based/Component/Card/Card Default',
+  component: MyCard,
   tags: ['autodocs'],
   argTypes: {
     backgroundColor: {
@@ -20,17 +20,5 @@ export default {
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const success = {
-//   args: {
-//     primary: true,
-//     label: 'Footer',
-//   },
-};
-
-export const error = {
-    //   args: {
-    //     primary: true,
-    //     label: 'Footer',
-    //   },
-    };
+export const main = {};
 
