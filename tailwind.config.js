@@ -4,6 +4,13 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   content: ["./src/**/*.{html,vue,js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      'sans': ['ui-sans-serif', 'Avenir','Helvetica','Arial','sans-serif'],
+      'serif': ['ui-sans-serif', 'Avenir','Helvetica','Arial','sans-serif'],
+      'mono': ['ui-sans-serif', 'Avenir','Helvetica','Arial','sans-serif'],
+      'display': ['ui-sans-serif', 'Avenir','Helvetica','Arial','sans-serif'],
+      'body': ['ui-sans-serif', 'Avenir','Helvetica','Arial','sans-serif'],
+    },
     extend: {
       colors: {
         primary: {

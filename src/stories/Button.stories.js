@@ -29,6 +29,15 @@ export const Primary = {
 
 export const Secondary = {
   args: {
+    secondary: true,
+    label: 'Button',
+  },
+};
+
+
+export const Disabled = {
+  args: {
+    disabled:true,
     label: 'Button',
   },
 };

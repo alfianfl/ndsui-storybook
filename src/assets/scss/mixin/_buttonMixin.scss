@@ -5,7 +5,8 @@
     cursor: pointer;
     display: inline-block;
     line-height: 1;
-    border-radius: 3px;
+    border-radius: 6px;
+    color: #fff;
   
     &:hover{
       opacity: 0.6;
@@ -15,6 +16,16 @@
     &--primary {
       background-color: #1e448c;
       color: #ffff;
+    }
+
+    &--disabled {
+      background-color: #9E9E9E;
+      color: #ffff;
+
+      &:hover{
+        opacity: 1;
+        cursor: inherit;
+      }
     }
 
     &--danger {

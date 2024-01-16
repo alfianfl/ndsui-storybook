@@ -6,20 +6,16 @@ export default {
   component: MyCard,
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: {
-      control: 'color',
-    },
     onClick: {},
-    size: {
-      control: {
-        type: 'select',
-      },
-      options: ['small', 'medium', 'large'],
-    },
   },
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const main = {};
+export const Main = {
+    args: {
+      icon: true,
+      label: 'Setor Tunai Micro UI',
+    },
+  };
 
 
