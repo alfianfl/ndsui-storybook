@@ -4,24 +4,20 @@ import MyPopup from '../components/VueBased/Popup/PopupSuccessRejected/index.vue
 export default {
   title: 'Vue Based/Section/Popup/Popup Success and Rejected',
   component: MyPopup,
-  tags: ['autodocs'],
+  tags: ['autodocs']
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Success = {
-    args: {
-      success: true,
-      message: 'Description',
-    },
-  };
-  
-  
-  export const Rejected = {
-    args: {
-      rejected: true,
-      message: 'Description',
-    },
-  };
-  
-  
+  args: {
+    success: true,
+    message: 'Description'
+  }
+};
 
+export const Rejected = {
+  args: {
+    rejected: true,
+    message: 'Description'
+  }
+};
