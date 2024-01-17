@@ -80,9 +80,7 @@
 
 <script>
 // import { reactive, computed } from 'vue';
-import "./style.scss";
-
 export default {
-  name: "TextStyle",
+  name: "Color",
 };
 </script>

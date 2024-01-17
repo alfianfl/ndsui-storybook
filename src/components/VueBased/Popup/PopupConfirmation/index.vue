@@ -14,7 +14,7 @@
         class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0"
       >
         <div
-          class="nds-dialog-apporval relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all"
+          class="nds-dialog-confirmation relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all"
         >
           <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
             <div class="sm:flex sm:items-start m-4">
@@ -42,7 +42,7 @@
                   Konfirmasi
                 </h3>
                 <div class="mt-3">
-                  <p class="text-sm text-black">Desc</p>
+                  <p class="text-sm text-black">{{message}}</p>
                 </div>
               </div>
             </div>
@@ -63,9 +63,13 @@
 
 <script>
 // import { reactive, computed } from 'vue';
-import "./style.scss";
-
 export default {
   name: "PopupConfirmation",
+  props:{
+    message: {
+      type: String,
+      default: "Description",
+    },
+  }
 };
 </script>

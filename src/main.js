@@ -1,5 +1,6 @@
-import './style.css'
 import '../src/assets/css/tailwind.css'
+import '../src/assets/scss/main.scss'
+
 import ButtonNds from "./components/VueBased/ButtonNds/index.vue"
 import Totp from "./components/VueBased/Totp/index.vue"
 import TextInput from "./components/VueBased/FormNds/TextInput/index.vue"
