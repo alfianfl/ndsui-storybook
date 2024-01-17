@@ -1,0 +1,15 @@
+.margin-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4rem;
+  text-align: center;
+
+  .margin-box {
+    margin-top: 20px;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+@import "../../../../assets/css/tailwind.css";

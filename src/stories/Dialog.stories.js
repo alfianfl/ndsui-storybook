@@ -1,9 +1,9 @@
-import MyNotif from '../components/VueBased/Dialog/index.vue';
+import MyDialog from '../components/VueBased/Dialog/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
   title: 'Vue Based/Component/Dialog',
-  component: MyNotif,
+  component: MyDialog,
   tags: ['autodocs'],
   argTypes: {
     backgroundColor: {

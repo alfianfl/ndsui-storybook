@@ -1,11 +1,11 @@
-.nds-alert{
+.nds-toast{
     display: flex;
     align-content: center;
     padding: 10px 20px;
     font-size: 18px;
     border-radius: 5px;
     &__error{
-        background-color: #FC1F49;
+        background-color: $signal-red;
     }
     &__info{
         background-color: #00B0FF;

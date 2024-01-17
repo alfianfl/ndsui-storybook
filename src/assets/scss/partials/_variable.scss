@@ -12,13 +12,21 @@ $base_line_height: 1.6;
 // ------------------------------------------------------------------------ //
 
 $palettes: (
-	'primary': #0094ed,
-	'black': #000,
-	'orange': #ff6600,
-	'danger': #F0210B,
-	'green': #30981D,
+	'black': #212121,
+	'primary': #1E448C,
+	'primary-orange': #F36F21,
+	'primary-grey': #D6D6D6,
+	'secondary-green': #30981D,
+	'secondary-blue10': #307DFB,
+	'secondary-blue20': #00B0FF,
+	'secondary-red': #ED5554,
+	'secondary-orange': #F7A738,
+	'secondary-cream': #FFF3E0,
+	'signal-yellow': #FEE834,
+	'signal-green': '#25E47B',
+	'signal-red': #FC1F49,
 	'secondary': #76848C,
-	'light-grey': #D3D3D3,
+	'light-blue': #dde3ee,
 	'warning': #FFAE00,
 	'white': #ffffff,
 	'yellow': #FFFF00,
@@ -36,7 +44,7 @@ $palettes: (
 );
 
 $light-palettes: (
-	'light-grey': #ededed,
+	'light-blue': #ededed,
 	'white': #fff,
 	'light-green': #66B947,
 );
@@ -53,12 +61,19 @@ $light-palettes: (
 }
 
 $primary: palette('primary');
-$light-grey: palette('light-grey');
-$green: palette('green');
-$orange: palette('orange');
-$danger: palette('danger');
+$primary-orange: palette('primary-orange');
+$primary-grey: palette('primary-grey');
+$light-blue: palette('light-blue');
+$secondary-green: palette('secondary-green');
+$secondary-blue10: palette('secondary-blue10');
+$secondary-blue20: palette('secondary-blue10');
+$secondary-orange: palette('secondary-orange');
+$secondary-red: palette('secondary-red');
+$secondary-cream: palette('secondary-cream');
+$signal-green: palette('signal-green');
+$signal-yellow: palette('signal-yellow');
+$signal-red: palette('signal-red');
 $secondary: palette('secondary');
-$dark-grey: palette('dark-grey');
 $yellow: palette('yellow');
 $warning: palette('warning');
 $red: palette('red');

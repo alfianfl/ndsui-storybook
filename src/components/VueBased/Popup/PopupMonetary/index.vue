@@ -118,7 +118,6 @@
 </template>
 
 <script>
-import "./style.scss";
 import { computed, reactive } from 'vue';
 
 export default {

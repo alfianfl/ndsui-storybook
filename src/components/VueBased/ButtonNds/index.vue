@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import './style.scss';
 import { reactive, computed } from 'vue';
 
 export default {

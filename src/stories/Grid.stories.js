@@ -4,7 +4,6 @@ import MyGrid from '../components/VueBased/Grid/index.vue';
 export default {
   title: 'Vue Based/Component/Grid',
   component: MyGrid,
-  tags: ['autodocs'],
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
