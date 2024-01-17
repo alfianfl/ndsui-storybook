@@ -14,12 +14,12 @@
     }
   
     &--primary {
-      background-color: #1e448c;
+      background-color: $primary;
       color: #ffff;
     }
 
     &--disabled {
-      background-color: #9E9E9E;
+      background-color: $primary-grey;
       color: #ffff;
 
       &:hover{
@@ -29,12 +29,12 @@
     }
 
     &--danger {
-      background-color: #ed5554;
+      background-color: $signal-red;
       color: #ffff;
     }
     
     &--secondary {
-      color: #333;
+      color: $black;
       background-color: transparent;
       box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
     }
