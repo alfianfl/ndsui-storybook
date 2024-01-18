@@ -2,7 +2,7 @@ import MyFooter from '../components/VueBased/Footer/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Section/Footer',
+  title: 'Documentations/Section/Footer',
   component: MyFooter,
   tags: ['autodocs'],
   argTypes: {

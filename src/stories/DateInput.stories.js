@@ -2,7 +2,7 @@ import MyInput from '../components/VueBased/FormNds/DateInput/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Input Field/Input Date',
+  title: 'Documentations/Component/Input Field/Input Date',
   component: MyInput,
   tags: ['autodocs'],
 };

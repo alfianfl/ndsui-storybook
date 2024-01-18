@@ -2,7 +2,7 @@ import MyNotif from '../components/VueBased/Notification/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Notification',
+  title: 'Documentations/Component/Notification',
   component: MyNotif,
   tags: ['autodocs'],
   argTypes: {

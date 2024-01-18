@@ -4,7 +4,7 @@ import Totp from '../components//VueBased/Totp/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Section/Totp',
+  title: 'Documentations/Section/Totp',
   component: Totp,
   tags: ['autodocs'],
   argTypes: {

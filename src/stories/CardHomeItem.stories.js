@@ -2,7 +2,7 @@ import MyCard from '../components/VueBased/Card/CardHomeItem/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Card/Card Home Item',
+  title: 'Documentations/Component/Card/Card Home Item',
   component: MyCard,
   tags: ['autodocs'],
   argTypes: {

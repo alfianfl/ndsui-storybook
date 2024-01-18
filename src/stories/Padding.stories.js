@@ -2,7 +2,7 @@ import MyPadding from '../components/VueBased/Spacing/Padding/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Spacing/Padding',
+  title: 'Documentations/Component/Spacing/Padding',
   component: MyPadding,
 };
 

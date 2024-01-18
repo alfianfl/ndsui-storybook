@@ -119,6 +119,7 @@
 
 <script>
 import { computed, reactive } from 'vue';
+import './style.scss';
 
 export default {
   name: "PopupMonetary",

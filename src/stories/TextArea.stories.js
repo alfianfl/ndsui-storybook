@@ -2,7 +2,7 @@ import MyInput from '../components/VueBased/FormNds/TextArea/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Input Field/Text Area',
+  title: 'Documentations/Component/Input Field/Text Area',
   component: MyInput,
   tags: ['autodocs'],
 };

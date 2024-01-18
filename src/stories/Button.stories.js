@@ -2,7 +2,7 @@ import MyButton from '../components/VueBased/ButtonNds/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Button',
+  title: 'Documentations/Component/Button',
   component: MyButton,
   tags: ['autodocs'],
   argTypes: {

@@ -1,4 +1,5 @@
 import '../src/assets/css/tailwind.css'
+import "../src/index.scss"
 
 import ButtonNds from "./components/VueBased/ButtonNds/index.vue"
 import Totp from "./components/VueBased/Totp/index.vue"

@@ -1,0 +1,33 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/blocks';
+
+
+# NDS Color Pallette
+
+<Meta title="Colors" />
+
+<ColorPalette>
+  <ColorItem
+    title="Greyscale"
+    subtitle="Some of the greys"
+    colors={{ White: '#FFFFFF', Alabaster: '#F8F8F8', Concrete: '#F3F3F3' }}
+  />
+  <ColorItem 
+    title="Primary" 
+    subtitle="Color" 
+    colors={{  PrimaryBlue: '#1E448C', PrimaryOrange: '#F36F21', Black:'#212121', PrimaryGrey: '#D6D6D6', PriamryWhite1:'#FAFAFA', PrimaryWhite2: '#FFFFFF' }} 
+  />
+  <ColorItem 
+    title="Secondary" 
+    subtitle="Color" 
+    colors={{ SecondaryGreen: '#1EC759', SecondaryBlue1: '#307DFB', SecondaryBlue2: '#00B0FF', SecondaryRed: '#ED5554', SecondaryOrange: '#F7A738', SecondaryCream: '#FFF3E0' }} 
+  />
+  <ColorItem
+    title="Signal Indicator"
+    subtitle="Color"
+    colors={{
+      SignalWarning: '#FEE834',
+      SignalSuccess: '#25E47B',
+      SignalDanger: '#FC1F49'
+    }}
+  />
+</ColorPalette>

@@ -2,7 +2,7 @@ import MyPopup from '../components/VueBased/Popup/PopupMonetary/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Section/Popup/Popup Monetary',
+  title: 'Documentations/Section/Popup/Popup Monetary',
   component: MyPopup,
   tags: ['autodocs']
 };

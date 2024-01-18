@@ -11,7 +11,7 @@
         :name="name"
         ref="textInput"
         autocomplete="off"
-        :class="`${classes} appearance-none border-2 border-gray-200 rounded w-full py-1 px-4 text-black-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-800`"
+        :class="`${classes} resize-y rounded-md appearance-none border-2 border-gray-200 rounded w-full py-1 px-4 text-black-700 leading-tight focus:outline-none focus:bg-white focus:border-blue-800`"
         id="inline-full-name"
         type="text"
         value="Jane Doe"
@@ -22,6 +22,7 @@
 
 <script>
 import { reactive, computed } from 'vue';
+import './style.scss';
 
 export default {
   name: 'TextInput',

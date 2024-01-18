@@ -2,7 +2,7 @@ import MyDialog from '../components/VueBased/Dialog/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {
-  title: 'Vue Based/Component/Dialog',
+  title: 'Documentations/Component/Dialog',
   component: MyDialog,
   tags: ['autodocs'],
   argTypes: {
