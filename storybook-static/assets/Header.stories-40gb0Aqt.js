@@ -1,1 +1,0 @@
-import{M as o}from"./index-3qomnSqc.js";import"./vue.esm-bundler-_KtclwrL.js";import"./_plugin-vue_export-helper-x3n3nnut.js";const s={title:"Vue Based/Section/Header",component:o,tags:["autodocs"],argTypes:{backgroundColor:{control:"color"},onClick:{},size:{control:{type:"select"},options:["small","medium","large"]}}};export{s as default};

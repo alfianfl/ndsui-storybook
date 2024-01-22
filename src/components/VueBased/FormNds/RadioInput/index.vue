@@ -1,12 +1,12 @@
 <template>
   <div class="flex items-center mb-4">
     <input
-      :disabled="disable"
+      :disabled="disabled"
       id="default-radio-1"
       type="radio"
       value=""
       name="default-radio"
-      class="w-4 h-4 text-primary bg-gray-100 border-gray-300 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+      :class="classes"
     />
     <label
       for="default-radio-1"
@@ -17,12 +17,12 @@
   <div class="flex items-center">
     <input
       checked
-      :disabled="disable"
+      :disabled="disabled"
       id="default-radio-2"
       type="radio"
       value=""
       name="default-radio"
-      class="w-4 h-4 text-primary bg-gray-100 border-gray-300 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+      :class="classes"
     />
     <label
       for="default-radio-2"
@@ -33,8 +33,8 @@
 </template>
 
 <script>
-import { reactive, computed } from "vue";
 import './style.scss';
+import { reactive, computed } from "vue";
 
 export default {
   name: "RadioInput",
@@ -45,17 +45,16 @@ export default {
     name: { type: String, default: "" },
     suffix: { type: String, default: "" },
     prefix: { type: String, default: "" },
-    disable: { type: Boolean, default: false },
+    disabled: { type: Boolean, default: false },
     required: { type: Boolean, default: false },
   },
-  setup(props) {
+    setup(props) {
     props = reactive(props);
     return {
-      classes: computed(() => {
-        return props.disable
-          ? "bg-gray-200"
-          : "bg-primary"
-      }),
+      classes: computed(() => ({
+        "radio-nds cursor-pointer": true,
+        "radio-nds--disabled": props.disabled,
+      })),
     };
   },
 };

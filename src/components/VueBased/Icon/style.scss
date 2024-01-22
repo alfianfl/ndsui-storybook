@@ -1,0 +1,25 @@
+@import "../../../assets/css/tailwind.css";
+
+.sb-page{
+    padding: 0 2rem;
+}
+.sb-subtitle,
+.sb-page__subtitle,
+.storybook-readme-story .markdown-body h3 {
+    color: #181818;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.sb-page__paragraph,
+.storybook-readme-story .markdown-body p {
+    color: #181818;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    max-width: 640px;
+}
+
+.icon{
+height: 35px;
+}

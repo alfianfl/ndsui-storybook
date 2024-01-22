@@ -45,6 +45,7 @@
     display: none;
 }
 
+
 .select-box__input:checked+.select-box__input-text {
     display: block;
 }
@@ -69,7 +70,7 @@
     position: absolute;
     width: 100%;
     padding: 0;
-    top: 35px;
+    top: 40px;
     list-style: none;
     opacity: 0;
     -webkit-animation-name: HideList;

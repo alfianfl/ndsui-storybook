@@ -1,0 +1,16 @@
+.checkbox-nds,
+.radio-nds {
+  accent-color: $primary;
+  width: 20px;
+  height: 20px;
+  background-color: $primary-grey;
+
+  &--disabled {
+    accent-color: $primary-grey;
+    color: #ffff;
+
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+}

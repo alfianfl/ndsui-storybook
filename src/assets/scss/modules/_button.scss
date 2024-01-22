@@ -7,6 +7,12 @@
     line-height: 1;
     border-radius: 6px;
     color: #fff;
+
+    &.btn-with-icon{
+      display: flex;
+      align-content: center;
+      gap: 0.75rem;
+    }
   
     &:hover{
       opacity: 0.8;
@@ -56,5 +62,13 @@
   }
   
   
-  
-  
+  .btn-label{
+    position: relative;
+    top: 1px;
+  }
+
+  .btn-with-outline{
+    background-color: #fff;
+    border: 1.5px solid $primary; 
+    color: $primary;
+  }
