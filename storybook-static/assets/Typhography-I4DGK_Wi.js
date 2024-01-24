@@ -1,7 +1,0 @@
-import{j as t}from"./jsx-runtime-AgcCsxC8.js";import{M as o,T as m}from"./index-sEyKmPab.js";import{useMDXComponents as n}from"./index-7MmEg4M7.js";import"./index-XiNr8FW2.js";import"./_commonjsHelpers-5-cIlDoe.js";import"./iframe-1aPS1wAH.js";import"../sb-preview/runtime.js";import"./index-ogXoivrg.js";import"./index-OpicemMp.js";import"./index-PPLHz8o0.js";const e={type:{primary:'"Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif'},weight:{regular:"400",bold:"700",extrabold:"800",black:"900"},size:{s1:12,s2:14,s3:16,m1:20,m2:24,m3:28,l1:32,l2:40,l3:48}},a="Lorem ipsum dolor sit amet, consectetur adipiscing elit.";function i(r){const s=Object.assign({h1:"h1",p:"p",strong:"strong"},n(),r.components);return t.jsxs(t.Fragment,{children:[t.jsx(o,{title:"Typography"}),`
-`,`
-`,`
-`,t.jsx(s.h1,{id:"typography",children:"Typography"}),`
-`,t.jsxs(s.p,{children:[t.jsx(s.strong,{children:"Font:"})," Nunito Sans"]}),`
-`,t.jsxs(s.p,{children:[t.jsx(s.strong,{children:"Weights:"})," 400(regular), 700(bold), 800(extrabold), 900(black)"]}),`
-`,t.jsx(m,{fontSizes:[Number(e.size.s1),Number(e.size.s2),Number(e.size.s3),Number(e.size.m1),Number(e.size.m2),Number(e.size.m3),Number(e.size.l1),Number(e.size.l2),Number(e.size.l3)],fontWeight:e.weight.black,sampleText:a,fontFamily:e.type.primary})]})}function y(r={}){const{wrapper:s}=Object.assign({},n(),r.components);return s?t.jsx(s,Object.assign({},r,{children:t.jsx(i,r)})):i(r)}export{a as SampleText,y as default,e as typography};

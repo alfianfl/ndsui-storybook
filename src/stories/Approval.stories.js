@@ -1,4 +1,4 @@
-import MyApproval from '../components/VueBased/TextStyle/index.vue';
+import MyApproval from '../components/VueBased/Approval/index.vue';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories
 export default {

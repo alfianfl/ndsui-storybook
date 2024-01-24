@@ -1,0 +1,24 @@
+@import "../../../assets/css/tailwind.css";
+#approval {
+  width: 600px;
+}
+.main-section {
+  background-color: #e4f2fd;
+  padding: 1rem 2rem 0.1rem 1rem;
+  border-radius: 5px;
+
+  #approval-input {
+    background: #fff8c7;
+  }
+
+  label {
+    width: 160px;
+  }
+
+  h3 {
+    color: $primary;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+}
