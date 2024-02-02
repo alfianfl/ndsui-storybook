@@ -45,5 +45,8 @@
     "storybook": "^7.6.7",
     "tailwindcss": "^3.4.1",
     "vite": "^5.0.8"
+  },
+  "publishConfig": {
+    "registry": "http://172.18.53.17:8080/repository/nds-npm-hosted/"
   }
 }
